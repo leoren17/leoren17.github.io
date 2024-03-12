@@ -87,6 +87,7 @@
   .linkedin {
     display: block;
     margin-inline: auto;
-    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    /* font-size: 2rem; */
   }
 }
