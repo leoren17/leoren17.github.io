@@ -1,0 +1,144 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #f8f8f8; */
+  background-color: #f7f4f1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(84, 84, 84);
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.text-p1 {
+  font-size: 1.25rem;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.text-p2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  /* border: 2px solid red; */
+}
+
+/* buttons  */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 0.3rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: #281f31 0.1rem solid;
+}
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+.btn-color-1,
+.btn-color-2:hover {
+  background: #281f31;
+  color: #f2ede8;
+}
+
+.btn-color-1:hover {
+  background: #f2ede8;
+  color: #281f31;
+}
+
+.btn-color-2 {
+  background: none;
+  color: #281f31;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+/* icons  */
+#socials-container {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.github {
+  font-size: 2rem;
+  color: black;
+  margin-right: 1rem;
+  /* border-radius: 1rem; */
+  /* border: 2px solid red; */
+}
+
+.github:hover {
+  color: #cc5c5c;
+}
+.linkedin {
+  font-size: 2rem;
+  color: black;
+  /* margin: 1.5rem; */
+}
+
+.linkedin:hover {
+  color: rgb(204, 92, 92);
+}
+
+.email {
+  font-size: 2rem;
+  color: black;
+  /* margin: 1.5rem; */
+}
+
+.email:hover {
+  color: rgb(204, 92, 92);
+}
+
+section {
+  /* add padding to each section or row in a website */
+  padding-top: 15vh;
+  /* height: 80vh; */
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content; /* make sure things not overlapping each other */
+  /* border-bottom: 2px solid red; */
+}
+
+.section-container {
+  display: flex;
+  /* border: 2px solid pink; */
+}

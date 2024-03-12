@@ -1,0 +1,51 @@
+#about {
+  /* position: relative; */
+  max-width: 60%;
+  min-width: 500px;
+  margin: 2rem auto;
+  height: 80vh;
+  /* border: 2px solid pink; */
+}
+
+.section-container {
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.section-img {
+  margin: auto 0;
+}
+.flowers {
+  height: 400px;
+  width: 400px;
+  border-radius: 2rem;
+}
+
+.icon-container,
+.text-container,
+.education-container,
+.skills-container {
+  padding: 1.5rem;
+  /* background: white; */
+}
+
+.about-text {
+  font-size: 1.2rem;
+  text-indent: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-text:first-of-type {
+  /* margin-bottom: 0.5rem; */
+  /* border-top: rgb(53, 53, 53) 0.1rem solid; */
+}
+
+.details-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

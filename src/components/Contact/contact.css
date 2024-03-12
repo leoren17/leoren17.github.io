@@ -1,0 +1,15 @@
+#contact {
+  height: 70vh;
+  margin: 2rem auto;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.con {
+  font-size: 1.5rem;
+}
