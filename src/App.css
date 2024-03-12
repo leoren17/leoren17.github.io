@@ -142,3 +142,9 @@ section {
   display: flex;
   /* border: 2px solid pink; */
 }
+
+@media screen and (max-width: 600px) {
+  /* p {
+    font-size: 0.8rem;
+  } */
+}

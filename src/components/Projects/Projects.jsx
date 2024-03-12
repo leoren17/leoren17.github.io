@@ -4,7 +4,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 class="title">My Projects</h1>
+      <h1 className="title">My Projects</h1>
       <div className="project-grid">
         <div className="project-container">
           <img src="/movie-app.png" alt="" className="project-img" />

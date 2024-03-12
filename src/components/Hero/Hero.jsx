@@ -7,6 +7,11 @@ const Hero = () => {
   return (
     <div>
       <section id="hero">
+        {/* profile picture */}
+        <div className="pic-container hidden">
+          <img className="leo" src="/leo-ren.jpg" alt="Leo Ren Profile Picture" />
+        </div>
+
         {/* profile description  */}
         <div className="hero-text">
           <p className="text-p1">Hello, I'm</p>
@@ -35,7 +40,7 @@ const Hero = () => {
         </div>
 
         {/* profile picture */}
-        <div className="pic-container">
+        <div className="pic-container show">
           <img className="leo" src="/leo-ren.jpg" alt="Leo Ren Profile Picture" />
         </div>
       </section>
