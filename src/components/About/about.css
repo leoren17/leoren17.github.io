@@ -1,6 +1,8 @@
 #about {
   /* position: relative; */
-  max-width: 60%;
+  /* max-width: 60%; */
+  width: min(90%, 60rem);
+
   /* min-width: 500px; */
   margin: 2rem auto;
   margin-inline: auto;
