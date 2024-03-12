@@ -37,10 +37,10 @@
   margin-bottom: 1.5rem;
 }
 
-.about-text:first-of-type {
-  /* margin-bottom: 0.5rem; */
-  /* border-top: rgb(53, 53, 53) 0.1rem solid; */
-}
+/* .about-text:first-of-type { */
+/* margin-bottom: 0.5rem; */
+/* border-top: rgb(53, 53, 53) 0.1rem solid; */
+/* } */
 
 .details-container {
   display: flex;
