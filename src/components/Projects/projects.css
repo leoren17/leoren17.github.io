@@ -33,6 +33,7 @@
   height: 300px;
   width: 225px;
   border-radius: 1rem;
+  /* border: 2px solid blue; */
 }
 
 .description {
@@ -67,5 +68,20 @@
 @media screen and (max-width: 600px) {
   .project-container {
     flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .project-img {
+    margin-inline: auto;
+  }
+  .description {
+    text-align: center;
+  }
+
+  .list li {
+    list-style: none;
+  }
+
+  .buttons {
+    margin-inline: auto;
   }
 }

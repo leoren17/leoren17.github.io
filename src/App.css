@@ -132,7 +132,7 @@ section {
   /* add padding to each section or row in a website */
   padding-top: 15vh;
   /* height: 80vh; */
-  margin: 0 10rem;
+  margin: 0 min(10%, 10rem);
   box-sizing: border-box;
   min-height: fit-content; /* make sure things not overlapping each other */
   /* border-bottom: 2px solid red; */
