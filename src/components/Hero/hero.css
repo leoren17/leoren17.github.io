@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 600px) {
   .hero-text p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .name {
     font-size: 2rem;
@@ -86,6 +86,6 @@
   .linkedin {
     display: block;
     margin-inline: auto;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
