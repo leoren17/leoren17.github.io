@@ -22,8 +22,8 @@ const About = () => {
               websites that are functional and minimalistic.
             </p>
             <p className="about-text">
-              I'm always eager to collaborate and learn from others. Let's connect and work together to create impactful
-              websites!
+              I'm always eager to collaborate and learn from others. Let's connect and I would love to hear about what
+              you are working on!
             </p>
             <p className="about-text">
               Finally, when I have free time, I love to cook, play chess, and play the piano! What about you?

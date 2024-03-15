@@ -1,6 +1,7 @@
 #about {
   /* position: relative; */
-  /* max-width: 60%; */
+
+  /* this sets a max width 60rem but no min width */
   width: min(90%, 60rem);
 
   /* min-width: 500px; */
